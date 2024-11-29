@@ -1,0 +1,147 @@
+body{
+    background-color: grey;
+}
+.c1{
+    background-color: white;
+    border-radius:20px ;
+    box-shadow: 0px 0px 120px black;
+    padding: 10px;
+    display:grid;
+    grid-template-areas: 
+    "item-1 item-2 item-3"
+    "item-4 item-6 item-6"
+    "item-5 item-6 item-6";
+    grid-template-rows: 45px 45px 45px;
+    gap: 6px;
+}
+.c1 div{
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px black;
+}
+.b1{
+    background-color: yellow;
+    grid-area: item-1;
+}
+.b2{
+    background-color: aqua;
+    grid-area: item-2;
+}
+.b3{
+    background-color: burlywood;
+    grid-area: item-3;
+}
+.b4{
+    background-color: thistle;
+    grid-area: item-4;
+}
+.b5{
+    background-color: cornflowerblue;
+    grid-area: item-5;
+}
+.b6{
+    background-color: orange;
+    grid-area: item-6;
+}
+.c2{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px ;
+    box-shadow: 0px 0px 120px black;
+    display: grid;
+    grid-template-areas: 
+    "i1 i2 i2 i3 i4 i5 i6"
+    "i7 i8 i8 i8 i4 i5 i6"
+    "i7 i8 i8 i8 i4 i5 i6";
+    gap: 6px;
+    grid-template-rows: 40px 60px;
+}
+.c2 div{
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px black;
+
+}
+.a1{
+    background-color: red;
+    grid-area: i1;
+}
+.a2{
+    background-color: orange;
+    grid-area: i2;
+}
+.a3{
+    background-color: blueviolet;
+    grid-area: i3;
+}
+.a4{
+    background-color: yellow;
+    grid-area: i4;
+}
+.a5{
+    background-color: green;
+    grid-area: i5;
+}
+.a6{
+    background-color: grey;
+    grid-area: i6;
+    width: 10px;
+}
+.a7{
+    background-color:chocolate ;
+    grid-area: i7;
+}
+.a8{
+    background-color:chartreuse;
+    grid-area: i8;
+}
+.c3{
+    background-color: white;
+    height: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    border-radius: 20px ;
+    box-shadow: 0px 0px 120px black;
+    display: grid;
+    grid-template-areas: 
+    "b1 b2 b2 b3" 
+    "b1 b4 b5 b6" 
+    "b1 b7 b8 b6";
+    gap: 6px;
+
+}
+.c3 div{
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px black;
+}
+.d1{
+    background-color: aqua;
+    grid-area: b1;
+}
+.d2{
+    background-color: orange;
+    grid-area: b2;
+}
+.d3{
+    background-color: greenyellow;
+    grid-area: b3;
+}
+.d4{
+    background-color: red;
+    grid-area: b4;
+}
+.d5{
+    background-color: blue;
+    grid-area: b5;
+}
+.d6{
+    background-color: violet;
+    grid-area: b6;
+}
+.d7{
+    background-color: paleturquoise;
+    grid-area: b7;
+}
+.d8{
+    background-color:chartreuse;
+    grid-area: b8;
+}
+
